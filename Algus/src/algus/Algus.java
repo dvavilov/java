@@ -10,10 +10,14 @@ package algus;
  * @author if17
  */
 public class Algus {
-
+    
     /**
-     * Programmitoo alguskoht.Siit algustatakse käivitamisel.
-     * @param args the command line arguments
+     *Alamprogramm toa ssojuse hindamiseks vastavalt temperatuurile.
+     * Vähemasti kolm taset.
+     */
+    
+    /**
+     * Arvamus ilma kohta
      */
     public static void ilmaKommentaar(int temperatuur){      
         if(temperatuur>0){System.out.println("sulab");}
