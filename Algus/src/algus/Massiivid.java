@@ -1,7 +1,17 @@
 package algus;
+import java.util.Arrays;
+
 public class Massiivid {
+    public static int summa(int[] arvud){
+        int summa=0;
+        for(int i=0; i<arvud.length; i++){
+            summa+=arvud[i];
+         }
+        return summa;
+        }
     public static void main(String[]arg){
         int[] pikkused={176, 163, 158, 171, 169};
+        System.out.println(summa(pikkused));
         System.out.println("Kokku: "+pikkused.length);
         System.out.println(pikkused[0]+" "+pikkused[pikkused.length-1]);
         for(int i=0; i<pikkused.length; i++){
