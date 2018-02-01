@@ -20,8 +20,10 @@ public class Algus {
      * Arvamus ilma kohta
      */
     public static void ilmaKommentaar(int temperatuur){      
-        if(temperatuur>0){System.out.println("sulab");}
-        else{System.out.println("Jäätab");}    
+        if(temperatuur==0){System.out.println("Zero");}
+        else if(temperatuur<0){System.out.println("Jäätab");}
+        else if(temperatuur>0){System.out.println("sulab");}
+        else{System.out.println("Something wrong with temperature");}    
     }
     /**
      * Programmi töö alguskoht. Siit alustatakse käivitamisel
