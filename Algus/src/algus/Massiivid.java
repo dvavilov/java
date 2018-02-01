@@ -34,7 +34,7 @@ public class Massiivid {
     public static void main(String[]arg){
         int[] pikkused={176, 163, 158, 171, 169};
         int t=piirid(pikkused);
-        
+        System.out.println(t[0]+" "+t[1]);
         System.out.println(summa(pikkused));
         System.out.println(keskmine(pikkused));
         System.out.println("Kokku: "+pikkused.length);
