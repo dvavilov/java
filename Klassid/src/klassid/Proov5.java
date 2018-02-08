@@ -2,7 +2,7 @@ package klassid;
 import java.io.*;
 public class Proov5 {
     public static void main(String[] args) throws Exception{
-        BufferedReader br=new BufferedReader(new FileReader("fail.txt"));
+        BufferedReader br=new BufferedReader(new FileReader("sisend1.txt"));
         String rida=br.readLine();
         while(rida!=null){
             System.out.println(rida);
