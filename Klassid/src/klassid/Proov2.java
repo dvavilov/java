@@ -8,19 +8,18 @@ public class Proov2 {
      int kaugeim=0;
      for(int i=0; i<pallid.length; i++){
         System.out.println(pallid[i]);
-        //Kuvage koordinaatide algustpunktist k�ige kaugema palli andmed
-        
         if(pallid[i].kaugusNullist()>pallid[kaugeim].kaugusNullist()){
-            kaugeim=i;
+           kaugeim=i;
         }
-     
+        //Kuvage koordinaatide alguspunktist kõige kaugema palli andmed
      }
      System.out.println("Kaugeim: "+pallid[kaugeim]);
-     /*
-     if(pallid[i].kaugusNullist()>pallid[kaugeim].kaugusNullist()){
-            kaugeim=i;
-            }
-     
-    System.out.println() */
+     Pall kaugeimPall=pallid[0];
+     for(Pall p: pallid){
+       if(p.kaugusNullist()>kaugeimPall.kaugusNullist()){
+         kaugeimPall=p;
+       }
+     }
+     System.out.println("Kaugeim pall: "+kaugeimPall);
   }    
 }
