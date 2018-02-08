@@ -22,9 +22,9 @@ public class Pall {
         double dy=getY()-teine.getY();
         return Math.sqrt(dx*dx+dy+dy);
     }
-    public double R(){
-    return Math.sqrt(x)
-    }
+    //public double R(){
+    //return Math.sqrt()
+   // }
     @Override
     public String toString(){
         return "Pall kohal ("+x+","+y+")";
