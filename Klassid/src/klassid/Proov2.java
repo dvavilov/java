@@ -8,7 +8,7 @@ public class Proov2 {
      int kaugeim=0;
      for(int i=0; i<pallid.length; i++){
         System.out.println(pallid[i]);
-        //Kuvage koordinaatide algustpunktist kõige kaugema palli andmed
+        //Kuvage koordinaatide algustpunktist kï¿½ige kaugema palli andmed
         
         if(pallid[i].kaugusNullist()>pallid[kaugeim].kaugusNullist()){
             kaugeim=i;
@@ -16,10 +16,11 @@ public class Proov2 {
      
      }
      System.out.println("Kaugeim: "+pallid[kaugeim]);
+     /*
      if(pallid[i].kaugusNullist()>pallid[kaugeim].kaugusNullist()){
             kaugeim=i;
             }
      
-    System.out.println() 
+    System.out.println() */
   }    
 }
