@@ -9,6 +9,9 @@ public class Pall {
         this.y=y;
     
     }
+    public double kaugustNullist(){
+        return Math.sqrt(x*x+y*y);//kaivitage 
+    }
     @Override
     public String toString(){
         return "Pall kohal ("+x+","+y+")";
